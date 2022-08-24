@@ -14,10 +14,10 @@ for i in range(1, 16):
     # valida a idade
     while (idade < 0) or (idade > 100):
         if(idade > 100):
-            print(idade, ' é muito velho para se cadastar')
+            print(' Com', idade, 'anos, é muito velho para se cadastar')
         if(idade < 0):
             print(' Não é possivel haver idades negativas!')  
-        idade = int(input('\n Informe a idade da'+ str(i)+'ª pessoa : '))
+        idade = int(input('\n Informe a idade da '+ str(i)+'ª pessoa : '))
     
     #calcula as quantidades
     if idade <= 15:
@@ -32,7 +32,7 @@ for i in range(1, 16):
         maior_60 += 1
    
 limpar() #limpa a tela
-print('Foram :')
+print('Foram : \n')
 print(menor_15, 'pessoa(s), menores de 15 anos! \n')
 print(menor_30, 'pessoas, maiores de 15 e menores de 30 anos! \n')
 print(menor_45, 'pessoas, maiores de 30 e menores de 45 anos! \n')

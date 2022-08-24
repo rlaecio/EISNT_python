@@ -12,5 +12,5 @@ fator = int(input('\n Informe um numero para ser fatorado: '))
 
 for i in range(1, fator + 1):
     fatoral *= i
-
+    
 print(fatoral)
