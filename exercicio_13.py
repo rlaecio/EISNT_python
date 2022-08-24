@@ -8,6 +8,8 @@ def limpar():
 
 limpar()
 for i in range(100, 0, -1):
-    time.sleep(1)
+    time.sleep(.5)
     limpar()
     print(i)
+
+print('Concluido com sucesso!!')
