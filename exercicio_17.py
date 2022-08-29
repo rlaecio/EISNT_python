@@ -6,8 +6,11 @@ def limpar():
 fatorial = 1
 limpar()
 
-fator = int(input('\n Informe um numero para ser fatorado: '))
-for i in range(1, fator + 1):
+fator = int(input('\n Informe um numero: '))
+fatorado = ''
+for i in range(fator, 0, -1):
     fatorial *= i
+    fatorado += str(i) 
 
+print(fatorado, '\n')
 print(' O fatorial de',fator, 'é', fatorial, '\n')
