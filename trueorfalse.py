@@ -1,0 +1,1 @@
+print(not(12 > 10 or False and not(7 <=7)))
